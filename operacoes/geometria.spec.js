@@ -7,11 +7,11 @@ describe('Suite de Teste Geometria ', () => {
     });
 
     it('Quando executo a função calcularPerimetroQuadrado passando o comprimento de um lado com valor 5, o resultado deve ser igual à 20', () => {
-        expect(geometria.calculaPerimetroQuadrado(5)).toBe(20);
+        expect(geometria.calcularPerimetroQuadrado(5)).toBe(20);
     });
 
-    it('Quando executo a função calculaAreaQuadrado passando o valor do lado igual à 6, o resultado deve ser igual à 36', () => {
-        expect(geometria.calculaAreaQuadrado(6)).toBe(36);
+    it('Quando executo a função calcularAreaQuadrado passando o valor do lado igual à 6, o resultado deve ser igual à 36', () => {
+        expect(geometria.calcularAreaQuadrado(6)).toBe(36);
     });
 
 });
